@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "dist",
+        "lib": [
+            "dom",
+            "es2015",
+            "es5",
+            "es6"
+        ],
+        "skipLibCheck": true
+    },
+    "include": [
+        "./src",
+        "./views", "src/utils/.ts"
+    ],
+    "typeRoots": [
+        "types",
+        "./node_modules/@types",
+    ],
+    "exclude": [
+        "node_modules",
+        "node_modules/*",
+        "node_modules/mongoose/index.d.ts"
+    ]
+}
